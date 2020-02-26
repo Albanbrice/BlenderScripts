@@ -1,4 +1,4 @@
-# Convert Principled to Emission
+# Convert Principled to Emission Shader
 
 import bpy
 
