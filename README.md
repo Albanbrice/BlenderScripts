@@ -1,2 +1,2 @@
 # BlenderScripts
-Custom Blender Python Scripts
+Custom Blender Python Scripts; raw and basic.
