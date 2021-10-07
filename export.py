@@ -37,6 +37,11 @@ for obj in col.objects:
         X = obj.location[0]
         Y = obj.location[1]
         Z = obj.location[2]
+
+        width = obj.data.size[0]
+        height = obj.data.size[1]
+        size = obj.empty_display_size
+        taille = obj.scale[0]
     
-        print(obj.name, X,Y,Z, sep=';', file=exp_fichier)    
+        print(obj.name, X,Y,Z, rotX, rotY, rotZ, width, height, size, taille, collections, sep=';', file=exp_fichier)    
 exp_fichier.close()
