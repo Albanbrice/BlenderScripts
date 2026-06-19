@@ -1,6 +1,6 @@
 bl_info = {
     "name": "F2 Multi",
-    "author": "You",
+    "author": "Alban-Brice Pimpaud",
     "version": (1, 0),
     "blender": (4, 0, 0),
     "location": "Edit Mode > Shift+F",
